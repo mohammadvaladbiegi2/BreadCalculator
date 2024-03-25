@@ -1,0 +1,106 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 500;
+  width: 200px;
+}
+
+.btn_plus {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.btn_minuse {
+  padding: 10px 20px;
+  background-color: #ff6200;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.active {
+  display: block !important;
+  opacity: 1;
+}
+
+.NumberBread,
+.NumberNylon,
+.NumberSesame {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #1976d9;
+  display: none;
+}
+
+.All {
+  margin-bottom: 20px;
+  padding: 10px;
+
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #027631;
+  display: none;
+}
+
+.NumberDamage {
+  margin-bottom: 20px;
+  padding: 10px;
+
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #e94518;
+  display: none;
+}
+
+.error {
+  margin-bottom: 20px;
+  padding: 10px;
+
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #e94518;
+  display: none;
+}
